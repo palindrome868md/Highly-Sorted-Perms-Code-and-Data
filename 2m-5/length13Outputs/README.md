@@ -1,0 +1,1 @@
+For $1 \leq i \leq 13$, the permutations in length13Outputi.txt are not just in $s^{n-m}(S_n)$ but are also in $s^{n-m}(S_{n, i})$, where $S_{n, i}$ denotes the set of length $n$ permutations with leading entry $i$.
