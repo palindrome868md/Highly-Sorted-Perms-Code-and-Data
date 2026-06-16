@@ -1,5 +1,3 @@
-package highlySortedPerms;
-
 import java.util.*;
 import java.io.*;
 
@@ -9,7 +7,7 @@ public class Q10_18_Simulation {
 	
 	public static void main(String[] args) throws IOException {
 		int[] permutation = {0, 1, 2, 3, 4, 5, 6, 7};
-		PrintWriter pw = new PrintWriter("stuffAgain/highlySortedPerms/length8Output.txt");
+		PrintWriter pw = new PrintWriter("output file path");
 		HashSet<ArrayList<Integer>> distinctOutputs = new HashSet<ArrayList<Integer>>();
 		for (long i = 1; i <= 40320; i++) { // Means 8! permutations are processed in this case
 			if (i % 39916800 == 0) { // Prints out progress check every 11! permutations processed.
