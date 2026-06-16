@@ -1,5 +1,3 @@
-package highlySortedPerms;
-
 import java.util.*;
 import java.io.*;
 
@@ -9,7 +7,7 @@ public class Q10_18_Simulation2 {
 	
 	public static void main(String[] args) throws IOException {
 		int[] permutation = {9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12};
-		PrintWriter pw = new PrintWriter("stuffAgain/highlySortedPerms/length13Output10.txt");
+		PrintWriter pw = new PrintWriter("output file path");
 		// System.out.println(System.getProperty("user.dir")); for checking current directory
 		HashSet<ArrayList<Integer>> distinctOutputs = new HashSet<ArrayList<Integer>>();
 		for (long i = 1; i <= 479001600; i++) { // Means 12! permutations are processed in this case
